@@ -1004,7 +1004,7 @@ function utility.textlength(str, font, fontsize)
 end
 
 function utility.getcenter(sizeX, sizeY)
-    return UDim2.new(0.5, -(sizeX / 2), 0.5, -(sizeY / 2))
+    return UDim2.new(0.9, -(sizeX / 3), 0.9, -(sizeY / 3))
 end
 
 function utility.table(tbl, usemt)
